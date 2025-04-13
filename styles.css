@@ -1,0 +1,86 @@
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.site-header {
+  padding: 2rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.main-nav {
+  float: right;
+  margin-top: -2.5rem;
+}
+
+.main-nav a {
+  margin-left: 24px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+.about {
+  margin-top: 4rem;
+}
+
+.about h2 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.about p {
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+ul li {
+  margin-bottom: 1rem;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.team-card {
+  flex: 1 1 30%;
+  text-align: center;
+}
+
+.team-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
