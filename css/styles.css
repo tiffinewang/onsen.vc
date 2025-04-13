@@ -1,22 +1,51 @@
+
 body {
-  font-family: Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
-  color: #111;
-  background: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
-
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  margin: 2rem 0;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #eee;
 }
-
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
 nav a {
-  margin-right: 20px;
-  text-decoration: none;
-  color: #000;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
 }
-
-nav a:hover {
-  text-decoration: underline;
+.hero {
+    padding: 4rem 2rem;
+}
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+.team-grid {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+.team-member {
+    flex: 1;
+    text-align: center;
+}
+.team-member img {
+    width: 200px;
+    height: auto;
+    border-radius: 12px;
+}
