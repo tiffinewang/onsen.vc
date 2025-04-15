@@ -136,3 +136,37 @@ footer {
     font-size: 0.8em;
   }
 }
+
+.split-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin-top: 3em;
+}
+
+.box {
+  flex: 1;
+  min-width: 300px;
+  background: white;
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.split-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  margin-top: 2em;
+}
+
+.box {
+  flex: 1;
+  min-width: 280px;
+  background: white;
+  padding: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  font-size: 0.95em;
+  line-height: 1.5;
+}
