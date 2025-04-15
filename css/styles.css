@@ -2,7 +2,7 @@
 body {
   font-family: 'Helvetica Neue', sans-serif;
   background: #f7f5f2;
-  color: #1f1f1f;
+  color: #003366;
   margin: 0;
   padding: 0;
 }
@@ -30,8 +30,15 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #333;
-  font-weight: 500;
+  color: #003366;
+  font-weight: bold;
+}
+
+nav a.active {
+  background-color: #003366;
+  color: white;
+  padding: 0.2em 0.5em;
+  border-radius: 4px;
 }
 
 main {
