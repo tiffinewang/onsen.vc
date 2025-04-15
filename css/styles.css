@@ -66,16 +66,29 @@ footer {
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   text-align: center;
   padding: 1em;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 360px;
+  height: 100%;
 }
+
 
 .team-member img {
   width: 100px;
   height: 100px;
   object-fit: cover;
   border-radius: 50%;
-  margin-bottom: 0.5em;
   border: 2px solid #ddd;
+  display: block;
+  margin: 0 auto 0.5em auto;
 }
+
 
 /* Tablet and below */
 @media (max-width: 768px) {
@@ -106,10 +119,17 @@ footer {
     padding: 2em 1em;
   }
 
-  .team-member img {
-    width: 90px;
-    height: 90px;
-  }
+  
+.team-member img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  display: block;
+  margin: 0 auto 0.5em auto;
+}
+
 }
 
 /* Phone */
@@ -118,10 +138,17 @@ footer {
     height: 140px;
   }
 
-  .team-member img {
-    width: 80px;
-    height: 80px;
-  }
+  
+.team-member img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  display: block;
+  margin: 0 auto 0.5em auto;
+}
+
 
   .team-member h3 {
     font-size: 1.1em;
