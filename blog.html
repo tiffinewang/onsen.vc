@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - Onsen Global</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2em;
+      margin-top: 2em;
+    }
+    .blog-card {
+      background: #001933;
+      padding: 1em;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(255,255,255,0.05);
+      color: #f0f0f0;
+      text-align: left;
+    }
+    .blog-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 1em;
+    }
+    .blog-card a {
+      color: #00ffff;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 1em 2em;">
+      <img src="img/OnsenTrans.png" alt="Onsen Global Logo" />
+      <nav style="display: flex; gap: 2em;">
+        <a href="index.html">Home</a>
+        <a href="leadership.html">About</a>
+        <a href="team.html">Team</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html" class="active">Blog</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h2>Onsen Global Blog</h2>
+    <div class="blog-grid">
+      <div class="blog-card">
+        <a href="#"><img src="img/Team.png" alt="Hello World Cover"></a>
+        <h3>Hello World</h3>
+        <p><em>April 2025</em></p>
+        <p>Welcome to the Onsen Global blog. We’re starting with ideas that challenge convention and inspire action. More coming soon.</p>
+        <a href="#">Read more →</a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 Onsen Global. All rights reserved.
+  </footer>
+</body>
+</html>
