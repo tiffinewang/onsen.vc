@@ -213,3 +213,18 @@ footer {
     margin: 0 auto !important;
   }
 }
+
+/* Mobile profile card fixes - ensure full width and centered */
+@media (max-width: 768px) {
+  .team-row {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1em !important;
+  }
+  .team-member {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+  }
+}
