@@ -58,7 +58,7 @@ footer {
 .team-row {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2em;
+  gap: 0;
   padding: 2em;
   justify-content: center;
 }
@@ -158,4 +158,45 @@ footer {
   box-shadow: 0 2px 8px rgba(255,255,255,0.04);
   font-size: 0.95em;
   line-height: 1.5;
+}
+
+/* Adjust team member spacing */
+.team-member {
+  justify-content: flex-start !important;
+}
+.team-member h3 {
+  margin: 0.25em 0 !important;
+}
+.team-member p {
+  margin: 0.25em 0 !important;
+}
+.team-member svg {
+  margin-top: 0.25em !important;
+}
+
+/* Tighten profile spacing: override inline flex and height */
+.team-member {
+  justify-content: flex-start !important;
+  height: auto !important;
+  min-height: auto !important;
+}
+.team-member h3 {
+  margin: 0.25em 0 !important;
+}
+.team-member p {
+  flex-grow: 0 !important;
+  margin: 0.25em 0 !important;
+}
+.team-member svg, .team-member a {
+  margin-top: 0.25em !important;
+}
+
+/* Further tighten spacing: remove flex on p and img margins */
+.team-member p {
+  display: block !important;
+  flex-grow: 0 !important;
+  margin: 0.25em 0 !important;
+}
+.team-member img {
+  margin-bottom: 0.5em !important;
 }
