@@ -200,3 +200,16 @@ footer {
 .team-member img {
   margin-bottom: 0.5em !important;
 }
+
+/* Mobile profile card fixes */
+@media (max-width: 768px) {
+  .team-row {
+    grid-template-columns: 1fr !important;
+    gap: 1em !important;
+  }
+  .team-member {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 auto !important;
+  }
+}
